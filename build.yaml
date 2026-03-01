@@ -20,3 +20,4 @@
 include:
   - board: xiao_ble
     shield: zaphod_lite
+    cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
